@@ -1,5 +1,5 @@
 
-precticing git
+practicing  git
 
 We are updating the text
 
