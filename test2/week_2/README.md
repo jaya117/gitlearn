@@ -29,6 +29,19 @@
 
 #### If in above example each instruction on an average takes 5 cycles to exceute then this system is exceuting 4 billion instructions in 20 second which is a HUGE number
 
+#### While measuring and comparing the CPU performance the only bottom line is CPU time taken by various CPUs for performing the same task. The CPU clock rate or the number of clock cycle that a cpu takes to execute an instruction do not provide any information about it's relative performance with respect to other CPUs. As shown in example below that compares performance of two CPUs 
+
+#### Problem:
+<img width="615" alt="perf_comparison1" src="https://github.com/jaya117/gitlearn_new/assets/139655462/e0615fab-cf21-4f8a-904e-075ff4a65cb4">
+
+#### Solution:
+<img width="629" alt="perf_comparison2" src="https://github.com/jaya117/gitlearn_new/assets/139655462/44330dcb-d289-4134-a514-104d8ed1cc42">
+
+#### In example above CPU2 may be taking many more cycles to execute the same instruction than CPU1, yet it's performance is better than CPU1 as its CPU time is less than that of CPU1
+
+
+
+
 
 
 
