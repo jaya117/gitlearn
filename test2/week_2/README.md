@@ -39,6 +39,10 @@
 
 #### In example above CPU2 may be taking many more cycles to execute the same instruction than CPU1, yet it's performance is better than CPU1 as its CPU time is less than that of CPU1
 
+### CPI(clocks per cycle) another way of respresnting CPU performance
+#### In example below the numbers in () in front of each instruction is  the clock cycle taken to execute the instruction 
+
+
 
 
 
