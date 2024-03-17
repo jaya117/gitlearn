@@ -39,8 +39,40 @@
 
 #### In example above CPU2 may be taking many more cycles to execute the same instruction than CPU1, yet it's performance is better than CPU1 as its CPU time is less than that of CPU1
 
-### CPI(clocks per cycle) another way of respresnting CPU performance
-#### In example below the numbers in () in front of each instruction is  the clock cycle taken to execute the instruction 
+### Another way of respresnting CPU performance is CPI (Clocks per instruction)
+#### In example below the numbers in () in front of each instruction is the clock cycles taken to execute the instruction.
+#### Total clock cycles taken to execute all instructions = 3+2+3+3+4+4+4+4+4+2=29
+#### Total nuber of instructions = 9
+#### Average time to execute one instruction = 29/9= 3.22
+<img width="625" alt="CPU_performance_in_terms_of_CPI" src="https://github.com/jaya117/gitlearn_new/assets/139655462/236d02dc-dcbe-4869-8123-d66c88255de9">
+
+#### New formula for CPU performance . 
+#### Conclusion  .... Lower CPI = > Higher CPU performance 
+
+<img width="613" alt="CPU_performance_new_formula" src="https://github.com/jaya117/gitlearn_new/assets/139655462/3354efa1-9f6b-4fc7-be86-04988bea6728">
+
+#### However above conclusion is little tricky as it's true only when the clock period is not taken into account
+
+<img width="644" alt="image" src="https://github.com/jaya117/gitlearn_new/assets/139655462/a42c3f3d-0978-40bc-b234-d43f566ce1a4">
+
+### How does the Software code itself impact the performance of the CPU ?
+
+#### Which code sequence is faster in the scenario given below ?
+<img width="632" alt="image" src="https://github.com/jaya117/gitlearn_new/assets/139655462/d6658f4e-5474-4ec1-a314-b62d297b9c11">
+
+#### The more a software uses instructions that have larger CPI the worse it's performance is as compared to a software that uses more instructions with smaller CPI 
+#### In example below , even though the red software sequence uses more instruction it's total CPI is less as it uses more instructions with smaller CPI as compared to blue sequence
+<img width="619" alt="image" src="https://github.com/jaya117/gitlearn_new/assets/139655462/b3e73c82-d129-427f-8845-2ab5c13de72b">
+
+## What is CPU mircoarchitecture ? 
+### TBD
+
+
+
+
+
+
+
 
 
 
